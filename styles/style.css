@@ -1,0 +1,142 @@
+/*-------------------
+  this is font style  
+----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/*------
+ common
+ -------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2;
+    
+    
+}
+/*-------------
+section style
+--------------*/
+section{
+    margin-bottom:60px;
+   
+}
+.top-bar{
+    background-color: #2D25A0;
+}
+.topbar-main-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   
+    
+}
+.topbar-main-div img{
+    width: 556px;
+    margin-top: 100px;
+}
+.topbar-main-div h1{
+    color: floralwhite;  
+    width: 485px;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.headline a{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 100px;
+    border-radius: 15px;
+  }
+  
+  .headline a:hover {opacity: 1}
+
+/*--------------------------
+ first section style end
+ ------------------------ */
+
+.box-main-div {
+    box-shadow: 2px 2px 2px 2px #e2e2e2;
+    border-radius: 5%;
+    padding: 20px 20px 20px 20px;
+    width: 290px;
+    height: 400px;
+    margin-left: 88px;
+    border-style: none;
+    background-color: lavender;
+   margin-bottom: 50px;
+}
+.box-section{
+   
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   
+}
+.box-section img{
+
+    width: 100%;
+    border-radius: 15px;
+}
+/*---------------
+box style end 
+---------------- */
+
+
+/*------------------- 
+last section style
+------------------- */
+.last-button{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 50px;
+    border-radius: 15px;
+  }
+  
+  .last-button:hover {opacity: 1}
+  .mother-div{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      justify-content: center;
+  }
+  .mother-div img{
+      width: 80%;
+      border-radius: 6px;
+  }
+  .last-contant{
+      width: 500px;
+      margin-left: 100px;
+  }
+  .mother-div h1{
+      width: 300px;
+      font-size: 40px;
+  }
+  .footer-div{
+     text-align: center;
+  }
+  footer img{
+      width: 483px;
+  }
+
