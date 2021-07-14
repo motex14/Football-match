@@ -189,9 +189,15 @@ this is media quary
     .top-bar{
         width: 100%;
     }
+    .box-main-div{
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+       
+    }
     .box-main{
         
-        grid-template-columns: repeat(1, 200px);
+        grid-template-columns: repeat(1, 2fr);
         margin: 0;
         flex-direction: column;
         width: 100%;
@@ -220,6 +226,7 @@ width:50%;
    .topbar-main-div{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+
    }
 
    html,body {
@@ -230,4 +237,9 @@ width:50%;
     overflow-x: hidden;
     
 }
+   .box-section{
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    }
 }
