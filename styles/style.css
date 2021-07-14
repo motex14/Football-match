@@ -77,8 +77,13 @@ section{
     border-style: none;
     background-color: lavender;
    margin-bottom: 50px;
+   
+
 }
-.box-section{
+.box-main-div b{
+    font-size: 24px;
+}
+.box-main{
    
    display: grid;
    grid-template-columns: repeat(3, 1fr);
@@ -139,4 +144,79 @@ last section style
   footer img{
       width: 483px;
   }
+/*------------------------- 
+last section style end
+-------------------------- */
 
+ /*----------------------------------------- 
+ this is header hover player hover style
+ --------------------------------------- */
+  .photo-frem:hover .photo{
+    transform: scale(0.7);
+    transition: transform 2s;
+
+}
+.photo-frem:hover{
+   
+    background-color: transparent;
+}
+.photo-frem {
+    
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+   
+    margin: 15px;
+    overflow: hidden;
+
+}
+
+.photo img {
+    width: 100%;
+    
+
+}
+/* -------------------------
+header hover style end
+--------------------------- */
+
+
+/*----------------------- 
+this is media quary
+----------------------- */
+@media only screen and (max-width:688px) {
+    .top-bar{
+        width: 100%;
+    }
+    .box-main{
+        
+        grid-template-columns: repeat(1, 200px);
+        margin: 0;
+        flex-direction: column;
+
+    }
+    .mother-div{
+        grid-template-columns: repeat(1, 1fr);
+       
+        margin-left: 100px;
+    }
+    .footer-div{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .footer-div img{
+width:50%;
+    
+}
+.top-bar img{
+    grid-template-columns: repeat(1, 1fr);
+    width: 400px;
+}
+.headline h1{
+    margin-left: 10px;
+}
+   .topbar-main-div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+   }
+}
